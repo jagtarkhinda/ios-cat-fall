@@ -20,6 +20,11 @@ class GameScene: SKScene {
                                   width: size.width, height: size.height-playableMargin*2)
         physicsBody = SKPhysicsBody(edgeLoopFrom: playableRect)
     }
+    
+    //detecting touch getting code from orange tree
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        //see the code from cat nap and practice
+    }
 
 
 }
